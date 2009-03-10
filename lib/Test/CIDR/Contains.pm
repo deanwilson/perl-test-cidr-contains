@@ -46,7 +46,7 @@ $VERSION = 0.1;
 
 my $Test = Test::Builder->new();
 
-sub cidr_contains($$) {
+sub cidr_contains {
   my $cidr = shift;
   my $ip   = shift;
 
