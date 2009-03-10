@@ -34,6 +34,7 @@ Test::CIDR::Contains - test if a CIDR range contains an IP address
 
 package Test::CIDR::Contains;
 use strict;
+use warnings;
 use Net::IPv4Addr qw ( ipv4_in_network );
 use Test::Builder;
 
